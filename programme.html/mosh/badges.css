@@ -1,0 +1,17 @@
+.badge{
+    border-radius:20px;
+    padding:0.5rem 2rem;
+    font-weight: bold;
+    white-space:nowrap;
+
+}
+.badge--primary{
+    background:var(--color-secondary);
+    color:green;
+
+}
+.badge--secondary{
+    background:var(--color-secondary);
+    color:red;
+
+}
