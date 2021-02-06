@@ -1,3 +1,9 @@
+/* Buttons*/
+*,
+*::after,
+*::before{
+    box-sizing:border-box;
+}
 .btn{
     font-size:1.8rem;
     font-weight:600;
