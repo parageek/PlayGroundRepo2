@@ -1,0 +1,17 @@
+:root {
+  --color-primary: blue;
+  --color-body: #918ca4;
+}
+
+.media {
+  display: flex;
+}
+.media__title {
+  margin-top: 0;
+  color: darkblue;
+}
+
+.media__body {
+  margin: 0 2rem;
+  color: #5c5577;
+}
