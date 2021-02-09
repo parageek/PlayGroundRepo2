@@ -1,0 +1,9 @@
+.nav {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.nav__list {
+  width: 100%;
+}
