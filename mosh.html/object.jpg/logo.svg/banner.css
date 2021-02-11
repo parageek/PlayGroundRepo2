@@ -35,7 +35,7 @@ h3 {
   font-size: 50px;
 }
 .block--skewed-right {
-  padding-bottom: calc(var(--padding-vertical)+4rem);
+  padding-top: calc(var(--padding-vertical)+4rem);
 }
 
 .hero__tagline {
@@ -53,4 +53,7 @@ h3 {
     text-align: left;
     align-self: center;
   }
+}
+.block--skewed-left {
+  background-color: black;
 }
