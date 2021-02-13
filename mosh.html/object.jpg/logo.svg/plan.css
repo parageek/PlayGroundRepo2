@@ -1,7 +1,8 @@
 :root {
   --color-primary: #2584ff;
   --color-secondary: #00d9ff;
-  --color-accent: #ff3400;
+  --color-accent: #918ca4;
+
   --color-headings: #1b0760;
   --color-body: #918ca4;
   --color-body-darker: #5c5577;
@@ -64,9 +65,9 @@
   font-size: 1.1rem;
   font-weight: 600;
   text-transform: uppercase;
-  padding: 2rem 3rem;
+  padding: 0.5rem;
   border: 0;
-  border-radius: 40px;
+  border-radius: 15px;
 }
 
 .btn__outline {
