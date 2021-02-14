@@ -1,0 +1,37 @@
+:root {
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --color-accent: #ff3400;
+  --color-headings: #1b0760;
+  --color-body: #918ca4;
+  --color-body-darker: #5c5577;
+  --color-border: #ccc;
+  --border-radius: 30px;
+}
+
+.feature {
+  gap: 4rem;
+}
+.feature__heading {
+  margin: 1rem 0;
+  color: darkblue;
+  font-display: flex;
+}
+.feature__image {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .feature:nth-of-type(even) .feature__content {
+    order: 2;
+  }
+}
+.block__header {
+  color: blue;
+}
+.link-arrow {
+  color: red;
+  font-size: 15px;
+}
+body {
+  color: silver;
+}

@@ -52,11 +52,6 @@
 .plan:hover {
   transform: scale(1.05);
 }
-@media screen and (min-width: 1024px) {
-  .plan__name {
-    font-size: 1.4rem;
-  }
-}
 
 .list list--tick {
   color: crimson;
@@ -81,4 +76,12 @@
 .btn--accent {
   background: var(--color-accent);
   color: #fff;
+}
+.grid {
+  display: grid;
+}
+@media screen and (min-width: 768px) {
+  .grid--1*3 {
+    grid-template-columns: repeat(3, 1);
+  }
 }
