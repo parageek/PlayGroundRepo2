@@ -1,20 +1,9 @@
-:root {
-  --color-primary: #2584ff;
-  --color-secondary: #00d9ff;
-  --color-accent: #ff3400;
-  --color-headings: #1b0760;
-  --color-body: #918ca4;
-  --color-body-darker: #5c5577;
-  --color-border: #ccc;
-  --border-radius: 30px;
-}
-
 .callout {
   padding: 4rem;
   border-radius: 5px;
 }
 .callout--primary {
-  background: var(--color-primary);
+  background: blue;
   color: #fff;
 }
 .callout__heading {
@@ -24,12 +13,13 @@
 }
 .grid {
   display: grid;
-  justify-items: strech;
-  align-items: strech;
+  justify-items: stretch;
+  align-items: stretch;
 }
 .callout .btn {
-  justify-self: center;
+  padding: 2rem 3rem;
   align-self: center;
+  justify-self: center;
 }
 .callout__content {
   text-align: center;
@@ -38,11 +28,11 @@
   padding-left: 6rem;
   padding-right: 6rem;
 }
-.btn--block {
-  width: 100%;
-  display: inline-block;
-}
-@media screen and(min-width:768px) {
+@media screen and (min-width: 768px) {
+  .callout .grid--1*2 {
+    grid-template-columns: 1fr auto;
+  }
+
   .callout__content {
     text-align: left;
   }

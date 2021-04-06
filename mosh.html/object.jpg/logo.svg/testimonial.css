@@ -38,3 +38,40 @@
 .quote__author {
   color: darkblue;
 }
+.testimonial {
+  padding: 3rem;
+}
+.testimonial__image {
+  position: relative;
+}
+.testimonial__image > img {
+  width: 100%;
+}
+.testimonial__image > .icon-container {
+  position: absolute;
+  top: 3rem;
+  right: -32px;
+}
+.icon--white {
+  fill: #fff;
+}
+.icon-container {
+  background: #f3f9fa;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: grid;
+  align-items: stretch;
+}
+.icon-container--accent {
+  background: var(--color-accent);
+}
+@media screen and(min-width:768px) {
+  .testimonial .quote {
+    font-size: 2rem;
+  }
+  .testimonial .quote {
+    margin-left: 6rem;
+  }
+}

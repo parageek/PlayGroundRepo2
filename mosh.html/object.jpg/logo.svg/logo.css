@@ -3,7 +3,19 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 1rem;
 }
 .nav__list {
   width: 100%;
+}
+.nav__item > a {
+  color: #d2d0db;
+
+  transition: color 0.3s;
+}
+.nav__item > a:hover {
+  color: #ffff;
+}
+.nav__toggler {
+  opacity: 0.5;
 }
